@@ -36,6 +36,7 @@ function App() {
       <h1>learn react hooks(usestate)</h1>
 
       <h2>counter value: {cnt}</h2>
+      
       <button onClick={addvalue}>increment the value {cnt} </button>
       <br />
       <button onClick={decresevalue}>remove the value {cnt} </button>

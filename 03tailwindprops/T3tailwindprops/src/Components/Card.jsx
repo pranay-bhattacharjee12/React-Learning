@@ -1,8 +1,9 @@
 import React from 'react'
 
 // props are used to pass data from parent component to child component
-// and also destructuring is used to extract the data from props and use it in the component direclty without using props keyword
-//also we can set default value for props in case if we are not passing any value for that prop 
+// and also destructuring is used to extract the data from props and 
+// use it in the component direclty without using props keyword
+//we can set default value for props in case if we are not passing any value for that prop 
 export default function Card({ name, price= '100', onViewDetails }) {
   return (
     <div className="w-64 bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
