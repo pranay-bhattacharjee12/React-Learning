@@ -27,7 +27,7 @@ function App() {
     if (cnt <= 0) {
       SetCnt(0);
     } else {
-      SetCnt(cnt - 1);
+      SetCnt(prevcnt => prevcnt - 1);
     }
   }
 

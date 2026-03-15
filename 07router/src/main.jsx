@@ -9,7 +9,6 @@ import Contact from './Components/Contact/Contact.jsx'
 import User from './Components/User/User.jsx'
 import Github, { githubInfoLoader } from './Components/Github/Github.jsx'
 
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
@@ -21,7 +20,6 @@ const router = createBrowserRouter(
     </Route>
   )
 );
-
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
